@@ -34,11 +34,13 @@ zstyle ':prezto:load' pmodule \
   'utility' \
   'completion' \
   'fasd' \
+  'osx' \
   'prompt' \
   'ssh' \
   'archive' \
   'homebrew' \
   'ruby' \
+  'node' \
   'rails' \
   'git'
 

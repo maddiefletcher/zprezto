@@ -13,6 +13,9 @@ fi
 # Customize to your needs...
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
+# Show the tty-clock
+alias tclock="tty-clock -s -c"
+
 # Get the weather
 alias weather='curl wttr.in/london'
 

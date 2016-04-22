@@ -13,8 +13,8 @@ fi
 # Customize to your needs...
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
-# Get the weather
-alias weather='curl wttr.in/london'
+# Show the tty-clock
+alias tclock="tty-clock -s -c"
 
-# Setup thefuck
-eval $(thefuck --alias)
+# Show the weather
+alias weather="curl http://wttr.in/london"

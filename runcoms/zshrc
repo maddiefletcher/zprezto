@@ -19,5 +19,7 @@ alias tclock="tty-clock -s -c"
 # Get the weather
 alias weather='curl wttr.in/london'
 
+setopt clobber
+
 # Setup thefuck
 eval $(thefuck --alias)

@@ -18,3 +18,5 @@ alias tclock="tty-clock -s -c"
 
 # Show the weather
 alias weather="curl http://wttr.in/london"
+
+setopt clobber

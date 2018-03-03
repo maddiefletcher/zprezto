@@ -22,3 +22,10 @@ alias weather="curl http://wttr.in/london"
 setopt clobber
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+
+# Docker shortcuts
+alias dcu="docker-compose up -d"
+alias dcd="docker-compose down"
+alias dcr="docker-compose run --rm"
+alias dcrm="docker-compose rm"
+alias dcb="docker-compose build"

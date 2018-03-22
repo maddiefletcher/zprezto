@@ -11,7 +11,10 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
 fi
 
 # Customize to your needs...
-if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+rbenv() {
+  eval "$(command rbenv init -)"
+  rbenv "$@"
+}
 
 # Show the tty-clock
 alias tclock="tty-clock -s -c"
@@ -29,3 +32,5 @@ alias dcd="docker-compose down"
 alias dcr="docker-compose run --rm"
 alias dcrm="docker-compose rm"
 alias dcb="docker-compose build"
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

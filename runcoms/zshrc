@@ -32,5 +32,6 @@ alias dcd="docker-compose down"
 alias dcr="docker-compose run --rm"
 alias dcrm="docker-compose rm"
 alias dcb="docker-compose build"
+alias docker-prune='docker system df && docker container prune && docker volume prune && docker system prune && docker system df'
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

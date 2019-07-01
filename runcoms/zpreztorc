@@ -176,11 +176,8 @@ zstyle ':prezto:module:ruby:chruby' auto-switch 'yes'
 zstyle ':prezto:module:syntax-highlighting' highlighters \
   'main' \
   'brackets' \
-  'pattern' \
-#   'line' \
-  'cursor' \
-  'root'
-#
+  'pattern'
+
 # Set syntax highlighting styles.
 zstyle ':prezto:module:syntax-highlighting' styles \
   'builtin' 'bg=blue' \

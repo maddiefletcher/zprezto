@@ -38,3 +38,5 @@ alias dcb="docker-compose build"
 alias docker-prune='docker system df && docker container prune && docker volume prune && docker system prune && docker system df'
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+. /usr/local/opt/asdf/asdf.sh

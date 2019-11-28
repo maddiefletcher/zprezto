@@ -38,5 +38,6 @@ alias dcb="docker-compose build"
 alias docker-prune='docker system df && docker container prune && docker volume prune && docker system prune && docker system df'
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+[ -f /usr/local/opt/kube-ps1/share/kube-ps1.sh ] && source "/usr/local/opt/kube-ps1/share/kube-ps1.sh" && PS1='$(kube_ps1)'$PS1
 
 . /usr/local/opt/asdf/asdf.sh
